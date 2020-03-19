@@ -8553,6 +8553,20 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+  a.btn.portfolio{
+    text-align: left;
+    font-size: 14px;
+    padding: 0px;
+  }
+
+  .col-md-4 {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);

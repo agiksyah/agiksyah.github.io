@@ -65,7 +65,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 			<section class="ftco-section-2">
 				<div class="photograhy">
 					<div class="row no-gutters">
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b1.png" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b1.png);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -74,7 +74,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b2.png" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b2.png);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -83,7 +83,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b3.png" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b3.png);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -92,7 +92,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b4.jpg" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b4.jpg);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -101,7 +101,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b5.jpg" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b5.jpg);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -110,7 +110,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 logo ftco-animate">
 							<a href="images/b6.jpg" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b6.jpg);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -119,7 +119,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b7.png" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b7.png);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -128,7 +128,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate">
 							<a href="images/b8.png" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b8.png);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -137,7 +137,7 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div>
-						<div class="col-md-4 ftco-animate">
+						<div class="col-md-4 illustration ftco-animate illustration">
 							<a href="images/b9.png" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(images/b9.png);">
 								<div class="overlay"></div>
 								<div class="text text-center">
@@ -173,6 +173,53 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 								</div>
 							</a>
 						</div-->
+
+						<script>
+							filterSelection("all")
+							function filterSelection(c) {
+							  var x, i;
+							  x = document.getElementsByClassName("col-md-4");
+							  if (c == "all") c = "";
+							  for (i = 0; i < x.length; i++) {
+								w3RemoveClass(x[i], "show");
+								if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+							  }
+							}
+							
+							function w3AddClass(element, name) {
+							  var i, arr1, arr2;
+							  arr1 = element.className.split(" ");
+							  arr2 = name.split(" ");
+							  for (i = 0; i < arr2.length; i++) {
+								if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+							  }
+							}
+							
+							function w3RemoveClass(element, name) {
+							  var i, arr1, arr2;
+							  arr1 = element.className.split(" ");
+							  arr2 = name.split(" ");
+							  for (i = 0; i < arr2.length; i++) {
+								while (arr1.indexOf(arr2[i]) > -1) {
+								  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+								}
+							  }
+							  element.className = arr1.join(" ");
+							}
+							
+							
+							// Add active class to the current button (highlight it)
+							var btnContainer = document.getElementById("myBtnContainer");
+							var btns = btnContainer.getElementsByClassName("btn");
+							for (var i = 0; i < btns.length; i++) {
+							  btns[i].addEventListener("click", function(){
+								var current = document.getElementsByClassName("active");
+								current[0].className = current[0].className.replace(" active", "");
+								this.className += " active";
+							  });
+							}
+							</script>
+
 					</div>
 				</div>
 			</section>
@@ -181,14 +228,17 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 	        <div class="row mb-5">
 	          <div class="col-md">
 	            <div class="ftco-footer-widget mb-4 ml-md-4">
-	              <h2 class="ftco-heading-2">Category</h2>
-	              <ul class="list-unstyled categories">
-	                <li><a href="#">Illustration (Ilustrasi) <span>(8)</span></a></li>
-	                <li><a href="#">Logo <span>(1)</span></a></li>
+				  <h2 class="ftco-heading-2">Category</h2>
+				  <div id="myBtnContainer">
+				  <ul class="list-unstyled categories"-->
+				  <li><a class="btn portfolio active" onclick="filterSelection('all')"> Show all</a></li>
+	              <li><a class="btn portfolio" onclick="filterSelection('illustration')">Illustration (Ilustrasi)</a></li>
+	              <li><a class="btn portfolio" onclick="filterSelection('logo')">Logo</a></li>
 	                <!--li><a href="#">Technology <span>(2)</span></a></li>
-	                <li><a href="#">Travel <span>(2)</span></a></li-->
+					<li><a href="#">Travel <span>(2)</span></a></li-->
 	              </ul>
-	            </div>
+				</div>
+				</div>
 	          </div>
 	          <div class="col-md-2">
 	             <!--div class="ftco-footer-widget mb-4">
@@ -224,13 +274,13 @@ Portfolios, agiksyah, Agik Syah, Argiansyah Putra, Graphic Designer Padang, UI/U
 	          </div>
 	        </div>
 	      </div>
-	    </footer>
+		</footer>
+
 		</div><!-- END COLORLIB-MAIN -->
 	</div><!-- END COLORLIB-PAGE -->
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
