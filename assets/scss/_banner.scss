@@ -1,0 +1,69 @@
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../images/abstract.png);
+    padding: 226px 0px 120px 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-banner:after {
+    content: '';
+    /*background-image: url(../images/slider-left-dec.jpg);*/
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 262px;
+    height: 625px;
+    z-index: 1;
+  }
+  
+  .main-banner:before {
+    content: '';
+    /*background-image: url(../images/slider-right-dec.jpg);*/
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 1159px;
+    height: 797px;
+    z-index: -1;
+  }
+  
+  .main-banner .left-content {
+    margin-right: 15px;
+  }
+  
+  .main-banner .left-content h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #384747;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .main-banner .left-content h2 {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 50px;
+    color: #384747;
+    margin-bottom: 20px;
+  }
+  
+  .main-banner .left-content p {
+    margin-bottom: 30px;
+    margin-right: 45px;
+  }
+  
+  .main-banner .right-image {
+    text-align: right;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .main-banner .right-image img {
+    max-width: 593px;
+  }
