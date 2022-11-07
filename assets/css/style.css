@@ -10842,7 +10842,7 @@ intro
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #305482;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -11982,7 +11982,7 @@ form#contact #map iframe {
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
-  color: #384747;
+  color: #305482;
   transition: all 0.3s;
 }
 
@@ -12063,7 +12063,7 @@ footer {
 footer p {
   text-align: center;
   margin: 20px 0px;
-  color: #384747;
+  color: #305482;
 }
 
 footer p a {
