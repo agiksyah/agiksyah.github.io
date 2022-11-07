@@ -149,13 +149,13 @@ header, nav, section, article, aside, footer, hgroup {
   .section-heading h6 {
     font-size: 15px;
     font-weight: 700;
-    color: #384747;
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: #305583;
   }
   
   .section-heading h4 {
-    color: #384747;
+    color: #305583;
     font-size: 35px;
     font-weight: 700;
     text-transform: capitalize;
@@ -176,8 +176,8 @@ header, nav, section, article, aside, footer, hgroup {
   .border-first-button a {
     display: inline-block !important;
     padding: 10px 20px !important;
-    color: #42b1b1 !important;
-    border: 1px solid #42b1b1 !important;
+    color: #305583 !important;
+    border: 1px solid #305583 !important;
     border-radius: 23px;
     font-weight: 500 !important;
     letter-spacing: 0.3px !important;
@@ -185,7 +185,7 @@ header, nav, section, article, aside, footer, hgroup {
   }
   
   .border-first-button a:hover {
-    background-color: #42b1b1;
+    background-color: #305583;
     color: #fff !important;
   }
   

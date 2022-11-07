@@ -10518,13 +10518,13 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #384747;
   text-transform: uppercase;
   margin-bottom: 15px;
+  color: #305583;
 }
 
 .section-heading h4 {
-  color: #384747;
+  color: #305583;
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
@@ -10545,8 +10545,8 @@ body {
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #42b1b1 !important;
-  border: 1px solid #42b1b1 !important;
+  color: #305583 !important;
+  border: 1px solid #305583 !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -10554,7 +10554,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #42b1b1;
+  background-color: #305583;
   color: #fff !important;
 }
 
@@ -11242,7 +11242,7 @@ intro
 .main-banner .left-content h3 {
   text-transform: capitalize;
   font-weight: 700;
-  color: #384747;
+  color: #305583;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
@@ -11252,13 +11252,14 @@ intro
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #384747;
+  color: #305583;
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 30px;
   margin-right: 45px;
+  color: #305583;
 }
 
 .main-banner .right-image {
@@ -11273,6 +11274,7 @@ intro
 
 #about {
   padding-top: 130px;
+  background-color: #ffbdac;
 }
 
 .about-left-image img {
@@ -11282,6 +11284,7 @@ intro
 .about-right-content p {
   margin-top: 30px;
   margin-bottom: 45px;
+  color: #305583;
 }
 
 .skills-content {
@@ -11348,15 +11351,15 @@ h3.tools {
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #636E72;
+  border-color: #305583;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #DFE6E9;
+  border-color: #305583;
 }
 
 .third-skill-item .progress .progress-bar {
-  border-color: #f58b56;
+  border-color: #305583;
 }
 
 .progress .progress-left .progress-bar {
@@ -11383,7 +11386,7 @@ h3.tools {
 
 .progress .progress-value {
   text-align: center;
-  color: #2a2a2a;
+  color: #305583;
   display: flex;
   width: 100%;
   border-radius: 50%;
@@ -11403,7 +11406,7 @@ h3.tools {
 .progress .progress-value span {
   font-size: 18px;
   text-transform: none;
-  color: #afafaf;
+  color: #305583;
   font-weight: 300;
 }
 
@@ -11458,12 +11461,28 @@ Due to the split circle of progress-left and progress right, we must use the ani
   animation: loading-1 1.5s linear forwards 1.5s;
 }
 
+.progress[data-percentage="65"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+
+.progress[data-percentage="65"] .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.5s;
+}
+
 .progress[data-percentage="70"] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
 
 .progress[data-percentage="70"] .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="75"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+
+.progress[data-percentage="75"] .progress-left .progress-bar {
+  animation: loading-3 1.5s linear forwards 1.5s;
 }
 
 .progress[data-percentage="80"] .progress-right .progress-bar {
@@ -11873,6 +11892,7 @@ Blog
 */
 .contact-us {
   padding-top: 130px;
+  background-color: #ffbdac;
 }
 
 .contact-us .section-heading .line-dec {
@@ -11886,6 +11906,7 @@ Blog
 
 p.contact {
   margin-bottom: 15px;
+  color: #305583;
 }
 
 form#contact:before {
@@ -11937,6 +11958,7 @@ form#contact #map iframe {
 
 .fill-form {
   padding: 80px 60px 80px 30px;
+  background-color: 305583;
 }
 
 .fill-form .info-post {
@@ -11972,7 +11994,7 @@ form#contact input {
   width: 100%;
   height: 46px;
   background-color: transparent;
-  border: 1px solid #42b1b1;
+  border: 1px solid #305583;
   outline: none;
   font-size: 15px;
   font-weight: 300;
@@ -11995,7 +12017,7 @@ form#contact textarea {
   height: 200px;
   border-radius: 23px;
   background-color: transparent;
-  border: 1px solid #42b1b1;
+  border: 1px solid #305583;
   outline: none;
   font-size: 15px;
   font-weight: 300;
@@ -12010,23 +12032,23 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #fff;
+  background-color: transparent;
   font-size: 15px;
   font-weight: 400;
-  color: #42b1b1;
+  color: #305583;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #42b1b1;
+  border: 1px solid #305583;
   transition: all 0.3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #42b1b1 !important;
+  background-color: #305583 !important;
   color: #fff !important;
 }
 
@@ -12306,6 +12328,7 @@ img.ikon {
   }
   form#contact {
     padding: 30px;
+    background-color: #ffbdac;
   }
 }
 
