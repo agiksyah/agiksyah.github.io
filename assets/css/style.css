@@ -10664,7 +10664,7 @@ intro
 }
 
 .pre-header {
-  background-color: #FFBCAD;
+  background-color: #efefef;
   height: 60px;
   padding: 15px 0px;
 }
@@ -11056,7 +11056,6 @@ intro
 
 .header-area.header-sticky {
   min-height: 80px;
-  background-color: #FFBCAD;
 }
 
 .header-area .nav {
