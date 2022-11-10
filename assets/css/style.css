@@ -11056,6 +11056,7 @@ intro
 
 .header-area.header-sticky {
   min-height: 80px;
+  background-color: #FFBCAD;
 }
 
 .header-area .nav {
