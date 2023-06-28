@@ -10545,8 +10545,8 @@ body {
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #305583 !important;
-  border: 1px solid #305583 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -10554,8 +10554,8 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #305583;
-  color: #fff !important;
+  background-color: #ffffff;
+  color: #305583 !important;
 }
 
 /* 
@@ -11205,7 +11205,7 @@ intro
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/abstract.png);
+  background-image: url(../images/SanrizukaStruggle.png);
   padding: 226px 0px 120px 0px;
   position: relative;
   overflow: hidden;
@@ -11242,7 +11242,8 @@ intro
 .main-banner .left-content h3 {
   text-transform: capitalize;
   font-weight: 700;
-  color: #305583;
+  color: #ffffff;
+  /*color: #305583;*/
   margin-bottom: 5px;
   text-transform: uppercase;
 }
@@ -11252,14 +11253,16 @@ intro
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #305583;
+  color: #ffffff;
+  /*color: #305583;*/
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 30px;
   margin-right: 45px;
-  color: #305583;
+  color: #ffffff;
+  /*color: #305583;*/
 }
 
 .main-banner .right-image {
