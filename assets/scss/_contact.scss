@@ -19,7 +19,7 @@
   
   
   form#contact:before {
-    background-image: url(../images/contact-top-right.png);
+    /**background-image: url(../images/contact-top-right.png);**/
     position: absolute;
     right: 0;
     top: 0;
@@ -57,15 +57,17 @@
     text-align: center;
   }
   
-  form#contact #map iframe {
+  /**form#contact #map iframe {
     border-top-left-radius: 23px;
     border-bottom-left-radius: 23px;
     margin-bottom: -7px;
     position: relative;
     z-index: 2;
-  }
+  }**/
   
   .fill-form {
+    margin: auto;
+    width: 100%;
     padding: 80px 60px 80px 30px;
     background-color: 305583;
   }

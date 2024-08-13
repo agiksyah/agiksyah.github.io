@@ -10520,11 +10520,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #305583;
+  color: #000000;
 }
 
 .section-heading h4 {
-  color: #305583;
+  color: #000000;
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
@@ -10539,7 +10539,7 @@ body {
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #726ae3;
+  background-color: #000000;
 }
 
 .border-first-button a {
@@ -10842,7 +10842,7 @@ intro
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #305482;
+  color: #000000;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -11205,7 +11205,7 @@ intro
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/NintendoWeb.jpg);
+  background-image: url(../images/KerjaKomunalWEB.jpg);
   padding: 226px 0px 120px 0px;
   position: relative;
   overflow: hidden;
@@ -11287,7 +11287,7 @@ intro
 .about-right-content p {
   margin-top: 30px;
   margin-bottom: 45px;
-  color: #305583;
+  color: #000000;
 }
 
 .skills-content {
@@ -11350,19 +11350,19 @@ h3.tools {
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #fd6a54;
+  border-color: #000000;
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #305583;
+  border-color: #000000;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #305583;
+  border-color: #000000;
 }
 
 .third-skill-item .progress .progress-bar {
-  border-color: #305583;
+  border-color: #000000;
 }
 
 .progress .progress-left .progress-bar {
@@ -11389,7 +11389,7 @@ h3.tools {
 
 .progress .progress-value {
   text-align: center;
-  color: #305583;
+  color: #000000;
   display: flex;
   width: 100%;
   border-radius: 50%;
@@ -11409,7 +11409,7 @@ h3.tools {
 .progress .progress-value span {
   font-size: 18px;
   text-transform: none;
-  color: #305583;
+  color: #000000;
   font-weight: 300;
 }
 
@@ -11639,7 +11639,7 @@ Blog
 .blog-post .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #384747;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
@@ -11913,7 +11913,7 @@ p.contact {
 }
 
 form#contact:before {
-  background-image: url(../images/contact-top-right.png);
+  /**background-image: url(../images/contact-top-right.png);**/
   position: absolute;
   right: 0;
   top: 0;
@@ -11951,15 +11951,16 @@ form#contact {
   text-align: center;
 }
 
-form#contact #map iframe {
+/**form#contact #map iframe {
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   margin-bottom: -7px;
   position: relative;
   z-index: 2;
-}
-
+}**/
 .fill-form {
+  margin: auto;
+  width: 100%;
   padding: 80px 60px 80px 30px;
   background-color: 305583;
 }
