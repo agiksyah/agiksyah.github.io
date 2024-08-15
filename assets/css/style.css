@@ -11909,7 +11909,7 @@ Blog
 
 p.contact {
   margin-bottom: 15px;
-  color: #305583;
+  color: #000000;
 }
 
 form#contact:before {
@@ -11962,7 +11962,7 @@ form#contact {
   margin: auto;
   width: 100%;
   padding: 80px 60px 80px 30px;
-  background-color: 305583;
+  background-color: 0;
 }
 
 .fill-form .info-post {
@@ -11986,7 +11986,7 @@ form#contact {
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
-  color: #305482;
+  color: #000000;
   transition: all 0.3s;
 }
 
@@ -12039,7 +12039,7 @@ form#contact button {
   background-color: transparent;
   font-size: 15px;
   font-weight: 400;
-  color: #305583;
+  color: #000000;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
@@ -12067,7 +12067,7 @@ footer {
 footer p {
   text-align: center;
   margin: 20px 0px;
-  color: #305482;
+  color: #000000;
 }
 
 footer p a {
